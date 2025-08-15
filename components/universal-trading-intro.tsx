@@ -1,6 +1,8 @@
 "use client"
 
+
 import { useEffect, useState } from "react"
+import TradingMatrix from "./trading-matrix"
 
 interface UniversalTradingIntroProps {
   onComplete: () => void
@@ -26,6 +28,9 @@ export default function UniversalTradingIntro({ onComplete, pageName }: Universa
       <div className="text-center">
         <h1 className="text-4xl font-bold text-green-400 mb-4">DFX DESIFOREX</h1>
         <p className="text-xl text-white">Loading {pageName}...</p>
+        <div className="flex justify-center items-center my-6">
+          <TradingMatrix />
+        </div>
         <div className="mt-4 w-16 h-1 bg-green-400 mx-auto animate-pulse"></div>
       </div>
     </div>

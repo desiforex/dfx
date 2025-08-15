@@ -3976,7 +3976,7 @@ export default function CoursesPage() {
                 ))}
               </div>
               <span className="ml-3 text-green-400 font-semibold">
-                213,500+ like-minded students
+                1300+ like-minded students
               </span>
             </div>
           </div>
